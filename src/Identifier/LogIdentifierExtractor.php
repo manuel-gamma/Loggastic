@@ -2,9 +2,9 @@
 
 namespace Locastic\Loggastic\Identifier;
 
-use Doctrine\Common\Util\ClassUtils;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\Persistence\Mapping\MappingException;
+use Locastic\Loggastic\Util\ClassUtils;
 use Symfony\Component\Messenger\Exception\HandlerFailedException;
 
 // Used for setting collection keys in activity logs data
